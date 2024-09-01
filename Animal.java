@@ -1,3 +1,5 @@
+package JAV.Scooby_Doo.Misterios_SA;
+
 public class Animal 
 {
     String nome;
@@ -5,20 +7,20 @@ public class Animal
     float peso;
     String cor;
 
-    void dadosanimal() 
+    void dadosA() 
     {
-        System.out.print("Cor: ");
-        System.out.println(cor);
         System.out.print("nome: ");
         System.out.println(nome);
         System.out.print("idade: ");
         System.out.println(idade);
         System.out.print("peso: ");
         System.out.println(peso);
+        System.out.print("Cor: ");
+        System.out.println(cor);
         System.out.println("------------");
     }
-    void existir()
+    void fala()
     {
-        System.out.println("Existindo!!!");
+        System.out.println("Scooby-Doo By_Doo!!!");
     }
 }
