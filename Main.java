@@ -1,38 +1,59 @@
+package JAV.Scooby_Doo.Misterios_SA;
+
 public class Main 
 {
     public static void main(String[] args)
     {
-        Animal a1 = new Animal();
-        a1.nome = "Mel";
-        a1.idade = 5;
-        a1.peso = 15;
-        a1.dadosanimal();
-
         Dog d1 = new Dog();
         d1.latir();
-        d1.existir();
+        d1.fala();
+        d1.dadosA();
         d1.cor = "caramelo";
         d1.nome = "Scooby";
-        d1.idade = 12;
-        d1.peso = 5;
-        d1.dadosanimal();
-    
-        Fish f1 = new Fish();
-        f1.nothing();
-        f1.existir();
-        f1.cor = "Vermelho e listras pretas e brancas";
-        f1.nome = "Nemo";
-        f1.idade = 2;
-        f1.peso = 075;
-        f1.dadosanimal();
+        d1.idade = 17;
+        d1.peso = 33;
 
         Velma v1 = new Velma();
-        v1.cor = "branca";
-        v1.idade = 23;
+        v1.Jargao();
+        v1.dadosH();
+        v1.frase = "Acho que finalmente estou começando a entender este mistério.";
+        v1.idade = 15;
         v1.nome = "Velma";
         v1.peso = 58;
-        v1.dadosh();
+        v1.olho = "Castanhos";
+        v1.cabelo = "Castanhos";
+
+        Daphne da1 = new Daphne();
+        da1.Jargao();
+        da1.dadosH();
+        da1.frase = "Esse lugar me dá arrepios!";
+        da1.idade = 16;
+        da1.nome = "Daphne";
+        da1.peso = 48;
+        da1.olho = "Azuis";
+        da1.cabelo = "Ruivo";
+
+        Fred f1 = new Fred();
+        f1.ff();
+        f1.Jargao();
+        f1.dadosH();
+        f1.frase = "Acho que temos um novo mistério nas mãos.";
+        f1.idade = 17;
+        f1.nome = "Fred";
+        f1.peso =62;
+        f1.olho = "Azuis";
+        f1.cabelo = "Loiros";
+
+        Salsicha s1 = new Salsicha();
+        s1.Jargao();
+        s1.dadosH();
+        s1.frase = "Ô, Diabo!";
+        s1.idade = 17;
+        s1.nome = "Salsicha";
+        s1.peso = 55;
+        s1.olho = "Castanhos";
+        s1.cabelo = "Loiro Escuro";
+        
     }
 
 }
-
